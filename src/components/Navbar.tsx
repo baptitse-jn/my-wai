@@ -133,6 +133,16 @@ const Navbar = () => {
           >
             {t("navbar.try_free")}
           </Button>
+          <form method="POST" action="https://app.my-w.ai/gift_cards">
+            <Button
+              variant="outline"
+              size="sm"
+              type="submit"
+              className="!border-mywai !text-mywai hover:!bg-mywai hover:!text-white"
+            >
+              {t("navbar.gift_card")}
+            </Button>
+          </form>
           <div className="relative">
             <Button
               variant="outline"
@@ -212,6 +222,16 @@ const Navbar = () => {
             >
               {t("navbar.try_free")}
             </Button>
+            <form method="POST" action="https://app.my-w.ai/gift_cards" onSubmit={() => setIsMenuOpen(false)}>
+              <Button
+                variant="outline"
+                size="sm"
+                type="submit"
+                className="!border-mywai !text-mywai hover:!bg-mywai hover:!text-white w-full"
+              >
+                {t("navbar.gift_card")}
+              </Button>
+            </form>
 
             {/* Réseaux sociaux mobile */}
             <div className="flex items-center justify-center gap-6 pt-4 border-t border-mywai/20">

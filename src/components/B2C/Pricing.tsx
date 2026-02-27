@@ -65,6 +65,17 @@ const Pricing = () => {
                 >
                   {t("pricing_section.cta_button")}
                 </Button>
+                <form method="POST" action="https://app.my-w.ai/gift_cards" className="mt-3">
+                  <Button
+                    variant="primary"
+                    size="md"
+                    type="submit"
+                    endIcon={<ArrowRight className="h-4 w-4" />}
+                    className="w-full !bg-mywai hover:!bg-mywai-dark !text-white"
+                  >
+                    {t("pricing_section.gift_card_button")}
+                  </Button>
+                </form>
                 <p className="text-sm text-center text-muted-foreground mt-4">
                   {t("pricing_section.payment_security")}
                 </p>

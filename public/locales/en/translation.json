@@ -10,7 +10,8 @@
     "about": "What is My Wai?",
     "account": "My account",
     "try_free": "Try for free",
-    "language": "Language"
+    "language": "Language",
+    "gift_card": "Give a gift card"
   },
   "hero": {
     "title": "Give the most beautiful gift:",
@@ -58,7 +59,8 @@
     "cta_button": "Create my book",
     "payment_security": "Secure payment - Satisfaction guaranteed",
     "additional_options_title": "Need additional options?",
-    "additional_options_description": "Contact us for special requests like corporate gifts, retirement gift ideas, additional copies, developments..."
+    "additional_options_description": "Contact us for special requests like corporate gifts, retirement gift ideas, additional copies, developments...",
+    "gift_card_button": "Give a gift card"
   },
   "process_section": {
     "title": "How it works to create a unique biography",

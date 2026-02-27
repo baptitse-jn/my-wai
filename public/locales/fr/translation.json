@@ -10,7 +10,8 @@
     "about": "Particulier",
     "account": "Mon compte",
     "try_free": "Essayer gratuitement",
-    "language": "Langue"
+    "language": "Langue",
+    "gift_card": "Offrir une carte cadeau"
   },
   "hero": {
     "title": "Offrez le plus beau des cadeaux :",
@@ -58,7 +59,8 @@
     "cta_button": "Créer mon livre",
     "payment_security": "Paiement sécurisé - Satisfaction garantie",
     "additional_options_title": "Besoin d'options supplémentaires ?",
-    "additional_options_description": "Contactez-nous pour des demandes spéciales comme des cadeaux d'entreprises, idée cadeau départ en retraite, des exemplaires supplémentaires, des évolutions..."
+    "additional_options_description": "Contactez-nous pour des demandes spéciales comme des cadeaux d'entreprises, idée cadeau départ en retraite, des exemplaires supplémentaires, des évolutions...",
+    "gift_card_button": "Offrir une carte cadeau"
   },
   "process_section": {
     "title": "Comment ça marche pour créer une biographie unique",

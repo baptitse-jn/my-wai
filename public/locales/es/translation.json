@@ -10,7 +10,8 @@
     "about": "¿Qué es My Wai?",
     "account": "Mi cuenta",
     "try_free": "Prueba gratis",
-    "language": "Idioma"
+    "language": "Idioma",
+    "gift_card": "Regalar una tarjeta regalo"
   },
   "hero": {
     "title": "Regala el más hermoso de los regalos:",
@@ -58,7 +59,8 @@
     "cta_button": "Crear mi libro",
     "payment_security": "Pago seguro - Satisfacción garantizada",
     "additional_options_title": "¿Necesitas opciones adicionales?",
-    "additional_options_description": "Contáctanos para solicitudes especiales como regalos corporativos, ideas de regalo de jubilación, copias adicionales, desarrollos..."
+    "additional_options_description": "Contáctanos para solicitudes especiales como regalos corporativos, ideas de regalo de jubilación, copias adicionales, desarrollos...",
+    "gift_card_button": "Regalar una tarjeta regalo"
   },
   "process_section": {
     "title": "Cómo funciona para crear una biografía única",
