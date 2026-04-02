@@ -13,6 +13,7 @@ const ExampleCalameo = lazy(() => import('../components/B2C/ExampleCalameo'));
 const Pricing = lazy(() => import('../components/B2C/Pricing'));
 const Testimonials = lazy(() => import('../components/B2C/Testimonials'));
 const FAQ = lazy(() => import('@/components/FAQ'));
+const ContactSection = lazy(() => import('../components/B2C/ContactSection'));
 
 const Index = () => {
   const { t, i18n } = useTranslation();
@@ -79,6 +80,17 @@ const Index = () => {
         }
       >
         <FAQ />
+      </LazyWrapper>
+
+      <LazyWrapper
+        minHeight="600px"
+        fallback={
+          <div className="section-padding bg-white flex items-center justify-center">
+            <LoadingSpinner size="lg" text="Chargement du contact..." />
+          </div>
+        }
+      >
+        <ContactSection />
       </LazyWrapper>
 
       <LatestArticles />

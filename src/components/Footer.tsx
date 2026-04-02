@@ -131,7 +131,6 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-            {t("hero.feature3_title")}
           </div>
         </div>
 
