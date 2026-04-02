@@ -43,6 +43,7 @@
     "title": "Un prix unique et transparent pour ce livre inoubliable",
     "subtitle": "Le plus beau cadeau pour un anniversaire, un départ en retraite ou un hommage.",
     "price": "99€",
+    "price_promo": "49€",
     "price_suffix": "TTC",
     "features_title": "Tout ce qui est inclus",
     "features": [
@@ -158,6 +159,10 @@
       {
         "question": "Et si je veux créer un livre pour quelqu'un d'autre ?",
         "answer": "C'est tout à fait possible ! Vous pouvez offrir un livre, créer un projet à plusieurs (avec cagnotte ou pas), et inviter les proches à y contribuer facilement."
+      },
+      {
+        "question": "Quel est le délai de livraison du livre ?",
+        "answer": "Le livre est livré sous 15 jours ouvrés après la validation définitive du contenu par vos soins. Vous recevez une confirmation d'expédition avec un suivi de colis."
       }
     ]
   },
@@ -209,8 +214,6 @@
       "title": "Contact",
       "email": "Email",
       "email_value": "Alia@my-w.ai",
-      "phone": "Téléphone",
-      "phone_value": "+33 6 83 89 06 5",
       "address": "Adresse",
       "address_value": "Brest, France"
     },

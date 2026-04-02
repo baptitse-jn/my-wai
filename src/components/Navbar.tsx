@@ -236,7 +236,7 @@ const Navbar = () => {
             {/* Réseaux sociaux mobile */}
             <div className="flex items-center justify-center gap-6 pt-4 border-t border-mywai/20">
               <a
-                href="https://www.facebook.com/profile.php?id=61571358324990"
+                href="https://www.facebook.com/people/My-Wai/61581292025580/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-mywai transition-colors"
@@ -245,7 +245,7 @@ const Navbar = () => {
                 <Facebook size={24} />
               </a>
               <a
-                href="https://www.instagram.com/mywai_memories/"
+                href="https://www.instagram.com/my_wai_officiel/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-mywai transition-colors"
@@ -254,7 +254,7 @@ const Navbar = () => {
                 <Instagram size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/company/mywai"
+                href="https://www.linkedin.com/company/my-wai/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-mywai transition-colors"

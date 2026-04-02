@@ -24,10 +24,10 @@ const Pricing = () => {
               {/* Badge removed as per request */}
               <div className="mt-6 flex items-center justify-center gap-4">
                 <span className="text-3xl font-display font-bold text-muted-foreground line-through">
-                  99€
+                  {t("pricing_section.price")}
                 </span>
                 <span className="text-5xl font-display font-bold text-mywai">
-                  49€
+                  {t("pricing_section.price_promo")}
                 </span>
                 <span className="ml-2 text-muted-foreground">
                   {t("pricing_section.price_suffix")}

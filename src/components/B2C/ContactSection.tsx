@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Mail, Phone, MessageSquare } from "lucide-react";
+import { ArrowRight, Mail, MessageSquare } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Button from "../ui/button/Button";
 
@@ -38,18 +38,6 @@ const ContactSection = () => {
                     </h4>
                     <p className="text-muted-foreground">
                       {t("contact_section.help_section.email_value")}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <Phone className="h-5 w-5 text-mywai mr-3 mt-0.5" />
-                  <div>
-                    <h4 className="font-medium">
-                      {t("contact_section.help_section.phone_label")}
-                    </h4>
-                    <p className="text-muted-foreground">
-                      {t("contact_section.help_section.phone_value")}
                     </p>
                   </div>
                 </div>
