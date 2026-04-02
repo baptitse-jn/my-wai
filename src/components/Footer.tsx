@@ -103,9 +103,9 @@ const Footer = () => {
                   href="#"
                   onClick={(e) => {
                     e.preventDefault();
-                    // @ts-ignore
+                    // @ts-expect-error -- Sddan is a third-party CMP not typed
                     if (typeof window !== 'undefined' && window.Sddan?.cmp?.displayUI) {
-                      // @ts-ignore
+                      // @ts-expect-error -- Sddan is a third-party CMP not typed
                       window.Sddan.cmp.displayUI();
                     }
                   }}
