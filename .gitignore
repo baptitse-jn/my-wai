@@ -24,4 +24,5 @@ dist
 *.sw?
 *.Zone.Identifier
 *.tmp
+.env
 .env.local
